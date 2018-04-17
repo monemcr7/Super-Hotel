@@ -236,15 +236,15 @@ $(function () {
 /*  SCROLL TOP BUTTON */
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
-            $('.scrollToTop , #top-sc').fadeIn();
+            $('.scrollToTop').fadeIn();
         } else {
-            $('.scrollToTop , #top-sc').fadeOut();
+            $('.scrollToTop').fadeOut();
         }
     });
 
     //Click event to scroll to top
 
-    $('.scrollToTop , #top-sc').click(function () {
+    $('.scrollToTop').click(function () {
         $('html, body').animate({
             scrollTop: 0
         }, 800);
