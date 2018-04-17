@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Super</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.png">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Scroll Top Button -->
+    <a href="#" class="scrollToTop"><i class="fa fa-angle-up"></i></a>
+    <!-- End Scroll To Button -->
+    <!-- Start Header Section -->
+    <section id="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header hidden-lg hidden-md">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    <a class="navbar-brand" href="#">
+						<a href=""> <img src="img/logo.png" alt="img"> </a>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a> </li>
+                                <li><a href="booking.html">Booking</a> </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 text-center hidden-xs hidden-sm">
+                            <div class="logo">
+                                <a href=""> <img src="img/logo.png" alt="img"> </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li  class="active"><a href="news.html">News</a></li>
+                                <li><a href="offer.html">Offer</a> </li>
+                                <li><a href="contact.html">Contact</a> </li>
+                                <li class="search hidden-xs hidden-sm">
+                                    <a href=""><i class="fa fa-search"></i></a>
+                                </li>
+                                <li class="hidden-lg hidden-md">
+                                    <a href="#">
+                                        <form id="searchInput" action="">
+                                            <input id="search-input" class="form-control input-lg" type="search" name="search" placeholder="Enter keywords...">
+                                            <input id="search-submit" type="submit" value="">
+                                        </form>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End Header Section -->
+    <!-- Start News Section -->
+    <section id="news" class="marg-top">
+        <div class="head-line text-center">
+            <h2 class="text-center">The Super News</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Start left Side -->
+                <div class="col-sm-3">
+                   <!-- Start User -->
+                    <div class="user-post">
+                        <h4 class="left-head text-">Latest Users</h4>
+                        <ul id="user-info" class="list-unstyled">
+                        </ul>
+                    </div>
+                    <!-- Recent Post -->
+                    <div class="recent-post">
+                        <h4 class="left-head">Recent Post</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <img src="img/recent1.jpg" alt="Recent Post">
+                                <a href="#" class="post-link">Seasonal Offers</a>
+                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                            </li>
+                            <li>
+                                <img src="img/recent2.jpg" alt="Recent Post">
+                                <a href="#" class="post-link">Seasonal Offers</a>
+                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                            </li>
+                            <li>
+                                <img src="img/recent3.jpg" alt="Recent Post">
+                                <a href="#" class="post-link">Seasonal Offers</a>
+                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                            </li>
+                            <li>
+                                <img src="img/recent4.jpg" alt="Recent Post">
+                                <a href="#" class="post-link">Traveling with kids?</a>
+                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Start Categories -->
+                    <div class="Categories">
+                        <h4 class="left-head">Categories</h4>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#">Trending Posts</a>
+                            </li>
+                            <li>
+                                <a href="#">Uncategorized</a>
+                            </li>
+                            <li>
+                                <a href="#">Design</a>
+                            </li>
+                            <li>
+                                <a href="#">Beauty & Hair</a>
+                            </li>
+                            <li>
+                                <a href="#">Fashion</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Start Comments -->
+                    <div class="comments">
+                        <div class="tabs">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#popular" data-toggle="tab">Popular</a></li>
+                                <li><a href="#comments" data-toggle="tab">Comments</a></li>
+                            </ul>
+                            <!-- Start Tap Content -->
+                            <div class="tab-content">
+                                <!-- Start Tap Populat -->
+                                <div class="tab-pane fade in active" id="popular">
+                                    <!-- Recent Post -->
+                                    <div class="recent-post">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <img src="img/recent1.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Seasonal Offers</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                            <li>
+                                                <img src="img/recent2.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Seasonal Offers</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                            <li>
+                                                <img src="img/recent4.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Traveling with kids?</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End Tap Populat -->
+                                <!-- Start Tap Comments -->
+                                <div class="tab-pane fade" id="comments">
+                                    <!-- Recent Post -->
+                                    <div class="recent-post">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <img src="img/recent1.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Seasonal Offers</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                            <li>
+                                                <img src="img/recent2.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Seasonal Offers</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                            <li>
+                                                <img src="img/recent3.jpg" alt="Recent Post">
+                                                <a href="#" class="post-link">Seasonal Offers</a>
+                                                <p class="recent-date"> <a href="#">April 14, 2018</a> </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- End Tap Comments -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Quote of day -->
+                    <div class="qoute">
+                        <h4 class="left-head">Quote of day</h4>
+                        <div class="qoute-text">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem dolor duis unde laudantium, totam rem aperiam dolor amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Left Side -->
+
+                <!-- Start Right Side -->
+                <div class="col-sm-9">
+                    <div class="blog-news">
+                        <div class="blog-img">
+                            <img src="img/news.jpg" width="100%" alt="blog">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">
+                                <a href="#">Our new location in Bali</a>
+                            </h3>
+                            <div class="blog-details">
+                                <a class="blog-date" href="#">April 14, 2018</a>
+                                <a class="blog-comments" href="#">4 comments</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis orci in imperdiet cursus. Sed rutrum tincidunt orci, eu eleifend quam lobortis ut. Quisque suscipit eget quam vel tincidunt. Maecenas convallis enim eget suscipit malesuada. Etiam massa mauris, dictum sit amet porttitor sit amet, tincidunt at libero.</p>
+                            <a class="btn btn-default btn-style" href="#">Read more</a>
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">
+                                <a href="#">Beautiful weedings in our skybar location</a>
+                            </h3>
+                            <div class="blog-details">
+                                <a class="blog-date" href="#">April 14, 2018</a>
+                                <a class="blog-comments" href="#">6 comments</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis orci in imperdiet cursus. Sed rutrum tincidunt orci, eu eleifend quam lobortis ut. Quisque suscipit eget quam vel tincidunt. Maecenas convallis enim eget suscipit malesuada. Etiam massa mauris, dictum sit amet porttitor sit amet, tincidunt at libero.</p>
+                            <a class="btn btn-default btn-style" href="#">Read more</a>
+                        </div>
+                        <div class="blog-img">
+                            <img src="img/news1.jpg" width="100%" alt="blog">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title">
+                                <a href="#">Indoor Pool - A new facility</a>
+                            </h3>
+                            <div class="blog-details">
+                                <a class="blog-date" href="#">April 14, 2018</a>
+                                <a class="blog-comments" href="#">6 comments</a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis orci in imperdiet cursus. Sed rutrum tincidunt orci, eu eleifend quam lobortis ut. Quisque suscipit eget quam vel tincidunt. Maecenas convallis enim eget suscipit malesuada. Etiam massa mauris, dictum sit amet porttitor sit amet, tincidunt at libero.</p>
+                            <a class="btn btn-default btn-style" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End News Section -->
+
+    <!-- Start Footer  -->
+    <footer id="footer">
+        <!-- Start Top Footer  -->
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="headline">
+                            <h3>About The Super</h3>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ab dignissimos vitae maxime adipisci blanditiis rerum quae quos! .
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="headline">
+                            <h3>Contact Us</h3>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-location-arrow"></i> 774 EG 84th St Alexandria, FL 33879</li>
+
+                            <li><i class="fa fa-phone"></i> Call us FREE +1 (011) 208 400 36</li>
+
+                            <li><i class="fa fa-envelope-o"></i> <a href="#">monemcr7@gmail.com</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="headline">
+                            <h3>Newsletter Subscribe</h3>
+                        </div>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="email" class="sr-only">email</label>
+                                <input id="newsletter-email" type="email" class="form-control input-lg" name="email" placeholder="E-mail">
+                                <button type="submit" class="btn bt-default" name="submit" value=""><i class="fa fa-arrow-right"></i></button>
+                            </div>
+                        </form>
+                        <div class="social-media">
+                            <a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a>
+                            <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Footer  -->
+        <!-- Start Bottom Footer  -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-text">
+                            <div>
+                                <h6>© 2018 <span class="text-color">The Super Hotel.</span> All Rights Reserved</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="footer-pages">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Book Now</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer  -->
+
+
+
+
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
